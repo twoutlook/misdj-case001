@@ -30,10 +30,13 @@ cd misdj-case001
 # 以 Leanne 為例
 https://github.com/leanneshen1/misdj-case001.git
 
-cd cd misdj-case001
+cd misdj-case001
 pwd
 ls -l
 git remote -v
+cd ..
+pwd
+ls -l
 ```
 
 ## 3. 建立該項目的虛擬環境
