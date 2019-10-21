@@ -8,6 +8,8 @@
 pwd
 mkdir django-team
 cd django-team
+pwd
+ls -l
 ```
 
 
@@ -19,6 +21,8 @@ cd django-team
 mkdir misdj-case001
 cd misdj-case001
 git clone https://github.com/twoutlook/misdj-case001.git
+pwd
+ls -l
 ```
 
 ## 3. 建立該項目的虛擬環境
@@ -27,6 +31,8 @@ git clone https://github.com/twoutlook/misdj-case001.git
 
 ```
 python3 -m venv venv
+pwd
+ls -l
 ```
 ## 4. 啟用上述虛擬環境並安裝所需
 虛擬環境是指 Python3.6 以上的。
