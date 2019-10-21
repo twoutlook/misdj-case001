@@ -1,3 +1,3 @@
-:D 笑一個
+## 上傳自己的更新到總倉庫
 
-有點霧煞煞
+- 到 https://github.com/amychenmit/misdj-case001 按下“Pull requests”
