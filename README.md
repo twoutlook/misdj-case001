@@ -69,7 +69,17 @@ xlwt==1.3.0
 
 ## 6. 確認目前的配置
 以 Mac 使用者 為例，pinglingchen 會是你在 Mac 的用戶名
+```
+pwd
+cd ~/django-team
+tree -L 2 misdj-case001/
+```
+
+
+
 到這裡要達到的效果是這樣子的
+
+
 
 ```
 $ pwd
