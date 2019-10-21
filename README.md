@@ -46,3 +46,35 @@ tablib==0.14.0
 xlrd==1.2.0
 xlwt==1.3.0
 ```
+
+## 以 Mac 使用者 為例
+到這裡要達到的效果是這樣子的
+
+```
+$ pwd
+/Users/pinglingchen/django-team
+$ tree -L 2 misdj-case001/
+misdj-case001/
+├── misdj-case001
+│   ├── README.md
+│   ├── case001
+│   ├── case001-data
+│   ├── db.sqlite3
+│   ├── go
+│   ├── img
+│   ├── manage.py
+│   ├── misdj
+│   ├── misdj-ww-steps-master
+│   ├── note
+│   ├── others
+│   ├── requirements.txt
+│   └── sharing
+└── venv
+    ├── bin
+    ├── include
+    ├── lib
+    ├── pip-selfcheck.json
+    └── pyvenv.cfg
+
+13 directories, 7 files
+```
