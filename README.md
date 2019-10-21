@@ -1,5 +1,9 @@
 
 # 練習在 github 協作, Mac 使用者
+## 0. 在 github 頁面先  Fork 本項目
+
+
+
 
 ## 1. 統一由 django-team 目錄開始出發
 進入一個乾淨的 terminal
@@ -20,7 +24,17 @@ ls -l
 ```
 mkdir misdj-case001
 cd misdj-case001
-git clone https://github.com/twoutlook/misdj-case001.git
+
+# 要 clone 你們剛才 Fork 後自己的。
+# git clone https://github.com/<你自己的>/misdj-case001.git 
+# 以 Leanne 為例
+https://github.com/leanneshen1/misdj-case001.git
+
+cd misdj-case001
+pwd
+ls -l
+git remote -v
+cd ..
 pwd
 ls -l
 ```
@@ -69,7 +83,17 @@ xlwt==1.3.0
 
 ## 6. 確認目前的配置
 以 Mac 使用者 為例，pinglingchen 會是你在 Mac 的用戶名
+```
+pwd
+cd ~/django-team
+tree -L 2 misdj-case001/
+```
+
+
+
 到這裡要達到的效果是這樣子的
+
+
 
 ```
 $ pwd
