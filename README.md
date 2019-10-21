@@ -24,7 +24,10 @@ ls -l
 ```
 mkdir misdj-case001
 cd misdj-case001
-git clone https://github.com/twoutlook/misdj-case001.git # 要 clone 你們剛才 Fork 後自己的。
+
+# 要 clone 你們剛才 Fork 後自己的。
+git clone https://github.com/<你自己的>/misdj-case001.git 
+
 pwd
 ls -l
 ```
