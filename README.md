@@ -41,6 +41,8 @@ ls -l
 ```
 source venv/bin/activate
 pip install -r misdj-case001/requirements.txt
+pwd
+ls -l
 ```
 
 ## 5.檢查虛擬環境安裝是否正確
