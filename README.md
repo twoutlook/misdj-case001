@@ -26,7 +26,9 @@ mkdir misdj-case001
 cd misdj-case001
 
 # 要 clone 你們剛才 Fork 後自己的。
-git clone https://github.com/<你自己的>/misdj-case001.git 
+# git clone https://github.com/<你自己的>/misdj-case001.git 
+# 以 Leanne 為例
+https://github.com/leanneshen1/misdj-case001.git
 
 pwd
 ls -l
