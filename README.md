@@ -1,22 +1,33 @@
 
-# 練習在 github 協作
+# 練習在 github 協作, Mac 使用者
 
-## 在工作目錄 clone 本項目
+## 1. 統一由 django-team 目錄開始出發
+進入一個乾淨的 terminal
+統一在你的根目錄建立 django-team 目錄並進入 
+```
+pwd
+mkdir django-team
+cd django-team
+```
+
+
+## 2. 建立工作目錄并 clone 本項目
 在你的工作區，新建一個檔案夾 misdj-case001，以後我們稱之為本項目的工作目錄
 
 
 ```
+mkdir misdj-case001
 git clone https://github.com/twoutlook/misdj-case001.git
 ```
 
-## 建立該項目的虛擬環境
+## 3. 建立該項目的虛擬環境
 虛擬環境是指 Python3.6 以上的。
 
 
 ```
 python3 -m venv venv
 ```
-## 啟用上述虛擬環境並安裝所需
+## 4. 啟用上述虛擬環境並安裝所需
 虛擬環境是指 Python3.6 以上的。
 
 
@@ -25,7 +36,7 @@ source venv/bin/activate
 pip install -r misdj-case001/requirements.txt
 ```
 
-### 檢查虛擬環境安裝是否正確
+## 5.檢查虛擬環境安裝是否正確
 
 使用指令  pip freeze 查看，是否如同以下結果
 ```
@@ -47,7 +58,8 @@ xlrd==1.2.0
 xlwt==1.3.0
 ```
 
-## 以 Mac 使用者 為例
+## 6. 確認目前的配置
+以 Mac 使用者 為例，pinglingchen 會是你在 Mac 的用戶名
 到這裡要達到的效果是這樣子的
 
 ```
