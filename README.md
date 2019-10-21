@@ -17,6 +17,7 @@ cd django-team
 
 ```
 mkdir misdj-case001
+cd misdj-case001
 git clone https://github.com/twoutlook/misdj-case001.git
 ```
 
