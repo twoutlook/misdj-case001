@@ -5,11 +5,11 @@
 -  要建的檔案是
     - amychenmit.md
 - 圖檔請放到
-    - amychenmit-img
+    - amychenmit-img/
     
     
 ### Leanna
 -  要建的檔案是
     - leanneshen1.md
 -  圖檔請放到
-    - leanneshen1-img
+    - leanneshen1-img/
