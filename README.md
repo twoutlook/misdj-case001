@@ -1,5 +1,9 @@
 
 # 練習在 github 協作, Mac 使用者
+## 0. 在 github 頁面先  Fork 本項目
+
+
+
 
 ## 1. 統一由 django-team 目錄開始出發
 進入一個乾淨的 terminal
@@ -20,7 +24,7 @@ ls -l
 ```
 mkdir misdj-case001
 cd misdj-case001
-git clone https://github.com/twoutlook/misdj-case001.git
+git clone https://github.com/twoutlook/misdj-case001.git # 要 clone 你們剛才 Fork 後自己的。
 pwd
 ls -l
 ```
