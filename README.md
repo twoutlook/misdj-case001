@@ -54,8 +54,8 @@ xlwt==1.3.0
 $ pwd
 /Users/pinglingchen/django-team
 $ tree -L 2 misdj-case001/
-misdj-case001/
-├── misdj-case001
+misdj-case001/               這是本項目的工作目錄
+├── misdj-case001            這是本項目的代碼
 │   ├── README.md
 │   ├── case001
 │   ├── case001-data
@@ -69,7 +69,7 @@ misdj-case001/
 │   ├── others
 │   ├── requirements.txt
 │   └── sharing
-└── venv
+└── venv                     這是本項目的虛擬環境
     ├── bin
     ├── include
     ├── lib
