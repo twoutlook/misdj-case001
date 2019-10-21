@@ -3,6 +3,7 @@ from . import views
 app_name = 'case001'
 
 urlpatterns = [
+    path('a1/', views.a1, name='a1'),
     path('a8/', views.a8, name='a8'),
     # path('init_ww/', views.init_ww, name='init_ww'),
     # path('ww2/', views.ww2, name='ww2'),
