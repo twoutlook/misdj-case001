@@ -24,3 +24,6 @@ urlpatterns = [
     # path('case001/', include('case001.urls')), 
 
 ]
+# https://wsvincent.com/django-image-uploads/
+# if settings.DEBUG: # new
+    # urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

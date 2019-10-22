@@ -209,3 +209,8 @@ def a3v2(request):
     context = {'list': getPlaceSorted(list1)}
     return render(request, 'case001/a3v2.html', context)
 
+def a4v2(request):
+
+    list1 = getList1()
+    context = {'list': getPlaceSorted(list1)}
+    return render(request, 'case001/a4v2.html', context)
