@@ -4,6 +4,8 @@ app_name = 'case001'
 
 urlpatterns = [
     path('a1/', views.a1, name='a1'),
+    path('b1/<int:yr>/<int:mo>/', views.b1, name='b1'),
+    path('b1/', views.b1_list, name='b1_list'),
     path('a2/', views.a2, name='a2'),
     path('a3/', views.a3, name='a3'),
     

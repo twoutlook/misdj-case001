@@ -3,6 +3,9 @@ from django.db.models import Count, Sum, Max, Min
 import re
 from .models import Data1
 
+# https://pypi.org/project/django-pivot/
+from django_pivot.pivot import pivot
+from django_pivot.histogram import histogram
 
 def index(request):
     list1 = Data1.objects.values('date1__year', 'date1__month').annotate(daycnt=Count(
@@ -214,3 +217,18 @@ def a4v2(request):
     list1 = getList1()
     context = {'list': getPlaceSorted(list1)}
     return render(request, 'case001/a4v2.html', context)
+
+def b1(request,yr,mo):
+    key={'yr':yr,'mo':mo,}
+    # list1 =  Data1.objects.filter(date1__year=yr, date1__month=mo).values('place','date1__day').annotate(idcnt=Count('id'))
+    pivot1 =pivot(Data1.objects.filter(date1__year=yr, date1__month=mo),'place','date1__day','id',aggregation=Count)
+    # for x in pivot1:
+    #     print (x)
+    context = {'key':key,'list': getPlaceSorted(pivot1)}
+    return render(request, 'case001/b1.html', context)
+
+def b1_list(request):
+
+    list1 =  Data1.objects.values('date1__year','date1__month').annotate(idcnt=Count('id'),placecnt=Count('place',distinct=True)).order_by('date1__year','date1__month')
+    context = {'list': list1}
+    return render(request, 'case001/b1_list.html', context)
